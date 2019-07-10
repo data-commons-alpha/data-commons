@@ -36,12 +36,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
+    - title: Data Contributor Details
       url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
       output: web, pdf
 
   - title: Data User
@@ -74,4 +70,12 @@ entries:
 
     - title: Install Jekyll on Windows
       url: /mydoc_install_jekyll_on_windows.html
+      output: web, pdf
+
+  - title: Data Guideline
+    output: web, pdf
+    folderitems:
+
+    - title: This is a change etc.
+      url: /mydoc_about_ruby_gems_etc.html
       output: web, pdf

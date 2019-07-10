@@ -32,6 +32,7 @@ Instead of using YAML references to handle links, I've switched to a Markdown re
 ## Workflow maps
 
 If you want to display a workflow map for a process, you can do so by adding some properties in your frontmatter. The workflow map helps guide users through a process. Both simple and complex workflow maps are available. For more details, see [Workflow maps][mydoc_workflow_maps].
+The User Data Workflow Map
 
 ## Upgrading
 
