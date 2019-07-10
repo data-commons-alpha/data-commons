@@ -37,7 +37,7 @@ entries:
     folderitems:
 
     - title: Data Contributor Details
-      url: /mydoc_release_notes_60.html
+      url: /mydoc_data_contributor.html
       output: web, pdf
 
   - title: Data User
