@@ -7,6 +7,8 @@ topnav:
       external_url: https://github.com/tomjoht/documentation-theme-jekyll
     - title: News
       url: /news
+    - title: IVMF
+      url: https://ivmf.syracuse.edu/
 
 #Topnav dropdowns
 topnav_dropdowns:
