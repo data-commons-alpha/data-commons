@@ -45,7 +45,7 @@ entries:
     folderitems:
 
     - title: Data User Details
-      url: /mydoc_mydoc_data_user.html
+      url: /mydoc_data_user.html
       output: web, pdf
 
     - title: Install Jekyll on Mac
