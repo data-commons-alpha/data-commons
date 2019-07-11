@@ -1,37 +1,36 @@
 ---
-title: Release notes 6.0
-tags: [getting_started]
+title: Data Contributor
+tags: [data_contributor]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 16, 2016
-summary: "Version 6.0 of the Documentation theme for Jekyll, released July 4, 2016, implements relative links so you can view the files offline or on any server without configuring urls and baseurls. Additionally, you can store pages in subdirectories. Templates for alerts and images are available."
+summary: "Data Contibutors are both individuals and organizations. Follow the steps below to become a Data Contributor. "
 sidebar: mydoc_sidebar
 permalink: mydoc_data_contributor.html
 folder: mydoc
 ---
 
-## Relative links
+## Data Submission Overview
 
-You can now view the site offline rather than solely through the Jekyll preview server or deployed on a web server. The linking approach in both the sidebar and with inline links uses relative linking throughout.
+Sign Documents, fill out Data forms, gain access credentials
+Prepare metadata and data format
+Submit data with metadata as .csv to S3 bucket
 
-## Subfolders for pages
+## Contribution to Data Commons Steps
 
-You can creates folders and subfolders for your pages, similar to how you can store posts in folders and subfolders. When Jekyll builds the site, all pages get pushed into the root directory as single html files (rather than being pushed inside folders, or remaining in subfolders). See [Pages][mydoc_pages] for more details.
+(1) Complete, review, and sign legal agreement
+(2) Complete the data inventory form
+(3) Receive project name and access credentials
+(4) Prepare metadata and data dictionary 
+(5) Access submission portal
+(6) Submit and validate project metadata tsvs
+(7) Get and configure s3 data storage credentials
+(8) Upload "raw" data to object storage 
 
-## Alerts templates
+## Data Contributor to Data User
 
-You can use include templates for notes, tips, and warnings. These include templates make it easier to insert notes. If you make an error, you're immediately made aware since the site won't build. See [Alerts][mydoc_alerts] for more details.
+After uploading the data and metadata to the provided S3 storage bucket, if you wish to become a Data User, follow the Data User workflow.
 
-## Image templates
-
-Similar to alerts, images also have include templates. You can insert both regular images and inline images, such as images that are a button or icon. See [Images][mydoc_images] for more details.
-
-## Automated links using Markdown formatting
-
-Instead of using YAML references to handle links, I've switched to a Markdown reference style approach. A links.html file iterates through the sidebar files and formats the content in the Markdown reference. You then just use Markdown syntax for the links. See [Links][mydoc_hyperlinks] for more details.
-
-## Workflow maps
-
-If you want to display a workflow map for a process, you can do so by adding some properties in your frontmatter. The workflow map helps guide users through a process. Both simple and complex workflow maps are available. For more details, see [Workflow maps][mydoc_workflow_maps].
+## Data Contributor Workflow 
 The User Data Workflow Map
 
 ![Contributor](/data-commons/images/Contributor.jpeg)
