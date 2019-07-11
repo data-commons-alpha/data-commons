@@ -2,10 +2,10 @@
 title: Release notes 6.0
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 16, 2016
+last_updated: July 10, 2019
 summary: "Version 6.0 of the Documentation theme for Jekyll, released July 4, 2016, implements relative links so you can view the files offline or on any server without configuring urls and baseurls. Additionally, you can store pages in subdirectories. Templates for alerts and images are available."
 sidebar: mydoc_sidebar
-permalink: mydoc_data_contributor.html
+permalink: mydoc_data_user.html
 folder: mydoc
 ---
 
@@ -34,7 +34,7 @@ Instead of using YAML references to handle links, I've switched to a Markdown re
 If you want to display a workflow map for a process, you can do so by adding some properties in your frontmatter. The workflow map helps guide users through a process. Both simple and complex workflow maps are available. For more details, see [Workflow maps][mydoc_workflow_maps].
 The User Data Workflow Map
 
-![Contributor](/data-commons/images/Contributor.jpeg)
+![Contributor](/data-commons/images/DataUser.jpeg)
 
 ## Upgrading
 
