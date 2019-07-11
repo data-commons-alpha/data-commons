@@ -12,18 +12,27 @@ folder: mydoc
 ## Data Submission Overview
 
 Sign Documents, fill out Data forms, gain access credentials
+
 Prepare metadata and data format
+
 Submit data with metadata as .csv to S3 bucket
 
 ## Contribution to Data Commons Steps
 
-(1) Complete, review, and sign legal agreement
+(1) Complete, review, and sign legal agreement 
+
 (2) Complete the data inventory form
+
 (3) Receive project name and access credentials
+
 (4) Prepare metadata and data dictionary 
+
 (5) Access submission portal
-(6) Submit and validate project metadata tsvs
+
+(6) Submit and validate project metadata
+
 (7) Get and configure s3 data storage credentials
+
 (8) Upload "raw" data to object storage 
 
 ## Data Contributor to Data User
