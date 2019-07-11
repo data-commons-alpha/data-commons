@@ -8,7 +8,7 @@ topnav:
     - title: News
       url: /news
     - title: IVMF
-      url: https://ivmf.syracuse.edu/
+      external_url: https://ivmf.syracuse.edu/
 
 #Topnav dropdowns
 topnav_dropdowns:
