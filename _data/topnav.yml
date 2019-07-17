@@ -3,12 +3,12 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/tomjoht/documentation-theme-jekyll
-    - title: News
-      url: /news
     - title: IVMF
       external_url: https://ivmf.syracuse.edu/
+    - title: Login
+      external_url: https://devme.ninja
+    - title: Documentation
+      url: /my_doc
 
 #Topnav dropdowns
 topnav_dropdowns:
