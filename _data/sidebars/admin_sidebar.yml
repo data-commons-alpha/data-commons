@@ -19,26 +19,44 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: VPC Setup
+  - title: Architecture
     output: web, pdf
     folderitems:
+    - title: Overview
+      url: /arch_overview.html
+      output: web, pdf
     - title: Recommended Training
       url: /training.html
       output: web, pdf
-    - title: VPN Setup
-      url: ''
+    - title: VPC
+      url: /vpc.html
       output: web, pdf
 
-  - title: Tool Setup
+  - title: Tools
     output: web, pdf
     folderitems:
+    - title: Overview
+      url: /tool_overview.html
+      output: web, pdf
     - title: Littlest JupyterHub(TLJH)
       url: /tljh.html
       output: web, pdf
     - title: Pgweb
       url: ''
       output: web, pdf
+    - title: Redshift
+      url: /redshift.html
+      output: web, pdf
 
+  - title: Security
+    output: web, pdf
+    folderitems:
+    - title: Overview
+      url: /security_overview.html
+      output: web, pdf
+    - title: Controls
+      url: /security_controls.html
+      output: web, pdf
 
   - title: Data Load
     output: web, pdf

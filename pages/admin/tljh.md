@@ -12,3 +12,11 @@ DCA uses the opensource distribution, TLJH, as one of the analytic front-ends fo
 
 ![blah](/data-commons/images/jhub-fluxogram.jpeg)
 * image source: https://jupyterhub.readthedocs.io/en/stable/_images/jhub-fluxogram.jpeg
+
+## Installation
+Installing TLJH is extremely easy.  The overall process to install on AWS is:
+1. Launch an Ubuntu Server instance in the VPC
+2. Update the instance using
+
+## TLJH Database Access
+Authorized DCA users receive credentials to TLJH and to the backend database.  The recommended way to interact with the database is by using the Jupyter's built-in "magics" functions for the python-sql library.  Additionally, since Redshift was used, a PostgreSQL adapter is required to interact with Redshift/PostgreSQL databases.  The required dependencies to enable TLJH to communicate with Redshift can be installed by following the instructions [here]().

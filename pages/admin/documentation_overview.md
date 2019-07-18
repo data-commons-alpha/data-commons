@@ -8,11 +8,11 @@ summary: Intended for system administrator audience to assist them in building t
 ---
 
 ## Documentation Goals
-The Data Commons-Alpha (DCA) proof of concept was created on Amazon Web Services cloud architecture.  A future version of DCA may be hosted in the Microsoft Azure cloud, and this documentation will be updated accordingly.  A detailed version of the AWS Virtual Private Cloud (VPC) will not be included here for security purposes, but will be released as needed (hit the Feedback link to request it).  DCA currently provides the following tools/capabilities that can be used to explore and perform analysis on data:
+The Data Commons-Alpha (DCA) proof of concept was created on Amazon Web Services cloud architecture.  A future version of DCA may be hosted in the Microsoft Azure cloud, and this documentation will be updated accordingly.  This documentation is divided into the following categories:
 
-* [JupyterHub](https://jupyter.org/hub) - JupyterHub brings the power of notebooks to groups of users
-* [pgweb](http://sosedoff.github.io/pgweb) - Cross-platform client for PostgreSQL databases
-* [AWS Redshift](https://aws.amazon.com/redshift/) - AWS hosted columnar optimized data warehouse
-
-## AWS Redshift
-Redshift was used for the datastore, but a traditional relational database such as MySql, PostgreSQL, or Microsoft SQL Server would have been more appropriate considering the initial data (America Serves) put into DCA was not very large.  Redshift is optimized for a [columnar](https://docs.aws.amazon.com/redshift/latest/dg/c_columnar_storage_disk_mem_mgmnt.html) schema that can scale for very large datasets.  Primary and Foreign key constraints are recognized in redshift and used for query planning, but the constraints are not enforced.  Therefore, the purpose of the database (i.e. OLTP vs OLAP) should be considered when choosing to use Redshift.  In general, Redshift should be used for OLAP/large datasets and AWS Relational Database Services (RDS) should be used for OLTP.
+* Architecture: an overview of the DCA cloud architecture will be described along with recommended free training and installation guides from AWS and other resources.
+* Tools: DCA provides two primary ways to interact with loaded data.
+1. [The Littlest JupyterHub](https://tljh.jupyter.org/en/latest/) provides a Jupyter notebook interface for general purpose programming in the R and Python languages.  
+2. [pgweb](http://sosedoff.github.io/pgweb) - Cross-platform client for PostgreSQL databases
+* Security: Security best practices such as Secure Socket Layer (SSL) encryption for data in transit, least privilege user accounts, network segmentation, among other technical security controls
+* Data Load: [The AWS provided Schema Conversion Tool(SCT)](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_Welcome.html) provides an easy and efficient way to bulk transfer data into the cloud.  An overview of the SCT and how it is used to transfer data will be demonstrated.
