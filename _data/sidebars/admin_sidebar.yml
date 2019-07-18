@@ -23,20 +23,22 @@ entries:
     output: web, pdf
     folderitems:
     - title: Recommended Training
-      url: ''
+      url: /training.html
       output: web, pdf
     - title: VPN Setup
+      url: ''
       output: web, pdf
 
   - title: Tool Setup
     output: web, pdf
     folderitems:
+    - title: Littlest JupyterHub(TLJH)
+      url: /tljh.html
+      output: web, pdf
     - title: Pgweb
       url: ''
       output: web, pdf
-    - title: Jupyter Hub
-      url: ''
-      output: web, pdf
+
 
   - title: Data Load
     output: web, pdf
