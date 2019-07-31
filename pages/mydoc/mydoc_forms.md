@@ -1,27 +1,27 @@
 ---
-title: FAQ layout
-permalink: mydoc_faq_layout.html
+title: Forms 
+permalink: mydoc_forms.html
 sidebar: mydoc_sidebar
-tags: [special_layouts]
-keywords: frequently asked questions, FAQ, question and answer, collapsible sections, expand, collapse
-last_updated: November 30, 2015
-summary: "You can use an accordion-layout that takes advantage of Bootstrap styling. This is useful for an FAQ page."
+tags: [forms]
+keywords: frequently used forms, questions, FAQ, question and answer, collapsible sections, expand, collapse
+last_updated: July 31, 2019
+summary: "Forms layout using Bootstrap styling. This is useful for an FAQ page."
 toc: false
 folder: mydoc
 ---
 
-<p>If you want to use an FAQ format, use the syntax shown on the faq.html page. Rather than including code samples here (which are bulky with a lot of nested <code>div</code> tags), just look at the source in the mydoc_faq.html theme file.</p>
+<p>Select the following form or link to complete and then submit the forms as percribed.</p>
 
 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Data Contributor Agreement</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                The Data Contributor Agreement (DCA) may be found here.
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ folder: mydoc
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Data Services / User Agreeement</a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
@@ -55,12 +55,14 @@ folder: mydoc
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Data Inventory </a>
                             </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                2. Complete the Data Inventory Form.
+                                This form is designed to help the administrator or developer identify the type of users and data. 
+                                
                             </div>
                         </div>
                     </div>

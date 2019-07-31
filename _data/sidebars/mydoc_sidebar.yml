@@ -75,15 +75,15 @@ entries:
     folderitems:
 
     - title: Contributor Flow
-      url: /mydoc_contributor_flow.html
+      url: /mydoc_data_contributor_flow.html
       output: web, pdf
 
     - title: User Flow
-      url: /mydoc_user_flow.html
+      url: /mydoc_data_user_flow.html
       output: web, pdf
 
     - title: Developer Flow
-      url: /mydoc_developer_flow.html
+      url: /mydoc_data_developer_flow.html
       output: web, pdf
 
   - title: Data Dictionary
