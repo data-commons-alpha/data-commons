@@ -29,7 +29,7 @@ entries:
       type: homepage
 
     - title: High-Level Architecture
-      url: /mydoc_introduction.html
+      url: /arch_overview.html
       output: web, pdf
 
   - title: Data Contributor
