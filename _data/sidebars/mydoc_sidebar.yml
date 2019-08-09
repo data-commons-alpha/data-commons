@@ -68,8 +68,6 @@ entries:
       url: /mydoc_governance.html
       output: web, pdf
 
-########
-
   - title: Data Flows
     output: web, pdf
     folderitems:
@@ -106,13 +104,6 @@ entries:
     output: web, pdf
     folderitems:
 
-<<<<<<< HEAD
-    - title: This is a change etc.
-      url: /mydoc_about_ruby_gems_etc.html
-      output: web, pdf
-=======
-    - title: Detailed Questios
+    - title: Detailed Questions
       url: /mydoc_research_questions.html
       output: web, pdf
-########
->>>>>>> d5fe0209f37d4f5f259508001325ed62f34a8f04
