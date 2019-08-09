@@ -48,30 +48,71 @@ entries:
       url: /mydoc_data_user.html
       output: web, pdf
 
-    - title: Install Jekyll on Mac
-      url: /mydoc_install_jekyll_on_mac.html
-      output: web, pdf
-
   - title: Data Developer
     output: web, pdf
     folderitems:
 
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_about_ruby_gems_etc.html
+    - title: Data Developer Details
+      url: /mydoc_data_developer.html
       output: web, pdf
 
-    - title: Install Jekyll on Mac
-      url: /mydoc_install_jekyll_on_mac.html
-      output: web, pdf
-
-    - title: Install Jekyll on Windows
-      url: /mydoc_install_jekyll_on_windows.html
-      output: web, pdf
-
-  - title: Data Guideline
+  - title: Data Governance
     output: web, pdf
     folderitems:
 
+    - title: Data Guidelines
+      url: /mydoc_data_guidelines.html
+      output: web, pdf
+
+    - title: More Governance
+      url: /mydoc_governance.html
+      output: web, pdf
+
+########
+
+  - title: Data Flows
+    output: web, pdf
+    folderitems:
+
+    - title: Contributor Flow
+      url: /mydoc_data_contributor_flow.html
+      output: web, pdf
+
+    - title: User Flow
+      url: /mydoc_data_user_flow.html
+      output: web, pdf
+
+    - title: Developer Flow
+      url: /mydoc_data_developer_flow.html
+      output: web, pdf
+
+  - title: Data Dictionary
+    output: web, pdf
+    folderitems:
+
+    - title: Dictionary Details
+      url: /mydoc_dictionary_details.html
+      output: web, pdf
+
+  - title: Forms
+    output: web, pdf
+    folderitems:
+
+    - title: Data Forms
+      url: /mydoc_forms.html
+      output: web, pdf
+
+  - title: Research Questions
+    output: web, pdf
+    folderitems:
+
+<<<<<<< HEAD
     - title: This is a change etc.
       url: /mydoc_about_ruby_gems_etc.html
       output: web, pdf
+=======
+    - title: Detailed Questios
+      url: /mydoc_research_questions.html
+      output: web, pdf
+########
+>>>>>>> d5fe0209f37d4f5f259508001325ed62f34a8f04
