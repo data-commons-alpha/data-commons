@@ -42,7 +42,10 @@ entries:
       url: /tljh.html
       output: web, pdf
     - title: Pgweb
-      url: ''
+      url: /pgweb.html
+      output: web, pdf
+    - title: Elastic Stack
+      url: /elastic.html
       output: web, pdf
     - title: Redshift
       url: /redshift.html
