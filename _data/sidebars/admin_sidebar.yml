@@ -41,8 +41,8 @@ entries:
     - title: Littlest JupyterHub(TLJH)
       url: /tljh.html
       output: web, pdf
-    - title: Pgweb
-      url: /pgweb.html
+    - title: PostgreSQL/Pgweb
+      url: /postgresql_pgweb.html
       output: web, pdf
     - title: Elastic Stack
       url: /elastic.html
@@ -61,9 +61,22 @@ entries:
       url: /security_controls.html
       output: web, pdf
 
-  - title: Data Load
+  - title: ETL
     output: web, pdf
     folderitems:
-    - title: SQL to Redshift
+    - title: SAS -> MSSQL
       url: ''
+      output: web, pdf
+    - title: MSSQL -> PostgreSQL
+      url: ''
+      output: web, pdf
+    - title: MSSQL -> ELK
+      url: ''
+      output: web, pdf
+
+  - title: Cost Analysis
+    output: web, pdf
+    folderitems:
+    - title: VPC
+      url: /vpc_cost.html
       output: web, pdf

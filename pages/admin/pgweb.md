@@ -1,9 +1,9 @@
 ---
-title: "Pgweb"
+title: "PostgreSQL/Pgweb"
 keywords: documentation
 tags: [documentation]
 sidebar: admin_sidebar
-permalink: pgweb.html
+permalink: postgresql_pgweb.html
 summary: Pgweb overview and installation
 ---
 
