@@ -8,15 +8,19 @@ summary: AWS cost for VPC Infrastructure
 ---
 
 ## VPC Overview
+![vpc](/data-commons/images/vpc_arch.png)
 
 ## Price Influencers
+* The most significant price contributor are the EC2 instances, specifically the JupyterHub instance as it has the highest CPU and RAM configuration of all services.
 * Intra-[availability zone](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html) traffic is free. Therefore all DCA services are built using the same availability zone (i.e. us-east-2a).  
 * An [Elastic IP](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html) is needed for the NAT gateway. The NAT gateway is required to provide out-going internet access to instances in the private subnet (i.e updates).
-* The VPN gateway allows administrators to connect to instances in the private subnet and for on-premise resources (i.e. SQL Server) to connect to private subnet instances (i.e. SQL Server data migration to PostgreSQL). The VPN gateway costs for every hour of operation. Costs could be reduced significantly by scripting the provision/decommission of using the AWS CLI.
+* All data transfer in to DCA is [free](https://aws.amazon.com/about-aws/whats-new/2011/06/30/aws-announces-new-data-transfer-pricing/). The cost model below assumes 2GB of data transfer out per month.
+* The VPN gateway allows administrators to connect to instances in the private subnet and for on-premise resources (i.e. SQL Server) to connect to private subnet instances (i.e. SQL Server data migration to PostgreSQL). The VPN gateway accrues charges for every hour of operation. Costs could be reduced significantly by scripting the provision/decommission of using the AWS CLI.
 
 ## Compute and Storage Summary
 * DCA has three core services: The Littlest JupyterHub (TLJH), Pgweb, and the Elastic Stack.  Combined, they have 56 computing cores, 176 GB of RAM, and more than 1.5 terabytes of secondary storage
 * DCA has an additional terabyte of S3 storage
+* Physical server with similar technical specifications from Dell would cost: $18,192 (no software licenses)
 
 ## Compute/Storage by EC2 Instance
 

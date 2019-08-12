@@ -12,4 +12,5 @@ summary: Recommended training and resources to learn AWS and the tools that DCA 
 
 ## Other training resources
 * [AWS Educate](https://aws.amazon.com/education/awseducate/) offers more hands-on training and curated learning paths (i.e. Data Scientist, Data Integration Specialist). AWS Educate offers $30 of free AWS credits
-* [Quiklabs](https://run.qwiklabs.com) offers hands-on training for AWS and Google Cloud Platform (GCP). Quiklabs hands-on labs are generally more robust than what AWS Educate offers; for example, Quiklabs offers a Redshift lab where you analyze a dataset with more than 1 million records.  
+* [Quiklabs](https://run.qwiklabs.com) offers hands-on training for AWS and Google Cloud Platform (GCP). Quiklabs hands-on labs are generally more robust than what AWS Educate offers; for example, Quiklabs offers a Redshift lab where you analyze a dataset with more than 1 million records.
+* [Elastic Stack](https://www.elastic.co/guide/index.html) documentation is really thorough and includes step-by-step installation guidance as well as API documentation

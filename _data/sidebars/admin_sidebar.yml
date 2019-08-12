@@ -64,14 +64,17 @@ entries:
   - title: ETL
     output: web, pdf
     folderitems:
+    - title: Data Model
+      url: /erd.html
+      output: web, pdf
     - title: SAS -> MSSQL
-      url: ''
+      url: /sas_mssql.html
       output: web, pdf
     - title: MSSQL -> PostgreSQL
-      url: ''
+      url: /mssql_postgresql.html
       output: web, pdf
     - title: MSSQL -> ELK
-      url: ''
+      url: /mssql_elk.html
       output: web, pdf
 
   - title: Cost Analysis
