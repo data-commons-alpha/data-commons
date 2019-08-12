@@ -39,10 +39,12 @@ Submit data with metadata as .csv to S3 bucket
 ## Data Contributor to Data Developer
 
 After uploading the data and metadata to the provided S3 storage bucket, if you wish to become a Data Developer, follow the Data Developer workflow. Yes, you need to submit the data first or submit a research proposal BEFORE becoming a developer.  
+(1) The Data Developer will essentially manage their own project and can add and delete users and data to their project for development and analysis.  
+(2) Data Developers also have the ability to contribute to the overall design and development of the IVMF Data Commons. This includes uploading code, aiding with the web design, or helping with new ideas on how to speed up research supporting Veterans and Military Families. 
 
 ## Data Developer Workflow 
 The Developer Workflow Map <UPDATE>
 
-![Contributor](/data-commons/images/Contributor.jpeg)
+![Data Developer](/data-commons/images/data_developer.jpeg)
 
 {% include links.html %}
